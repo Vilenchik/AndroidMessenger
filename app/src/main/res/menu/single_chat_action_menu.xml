@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:icon="@drawable/ic_vert"
+        android:title=""
+        app:showAsAction="ifRoom">
+
+        <menu>
+            <item
+                android:id="@+id/settings_menu_call"
+                android:icon="@drawable/ic_call"
+                android:title="@string/single_chat_call"
+                app:showAsAction="never" />
+
+            <item
+                android:id="@+id/settings_menu_videocall"
+                android:icon="@drawable/ic_videocall"
+                android:title="@string/single_chat_videocall"
+                app:showAsAction="never" />
+        </menu>
+    </item>
+
+
+</menu>
+
